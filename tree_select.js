@@ -12,7 +12,7 @@ function treeSelect(paths, clicks) {
     const All = Symbol('all');
     const None = Symbol('no');
     const Partial = Symbol('partial');
-    paths.sort();
+//     paths.sort();
     const map = new Map();
     paths.forEach(path => {
         path.split('/').forEach((val, i, arr) => {
